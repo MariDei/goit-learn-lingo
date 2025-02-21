@@ -1,0 +1,15 @@
+.container {
+  padding-left: 390px;
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.link {
+  text-align: center;
+  line-height: 1.25; /* 125% */
+}
+
+.isActive {
+  color: var(--yellow-hover);
+}
