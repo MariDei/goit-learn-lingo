@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import Logo from '../../images/logo_travel-trucks.svg';
+import Logo from '';
 import Navigation from '../Navigation/Navigation';
+import AuthMenu from '../AuthMenu/AuthMenu';
 import css from './Header.module.css';
 
 const Header = () => {
@@ -11,6 +12,7 @@ const Header = () => {
         LearnLingo
       </Link>
       <Navigation />
+      <AuthMenu />
     </header>
   );
 };
