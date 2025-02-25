@@ -1,1 +1,23 @@
+.wrapperBtns {
+  display: flex;
+}
 
+.loginBtn {
+  width: auto;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.regBtn {
+  width: 166px;
+  height: 48px;
+  padding: 14px 39px;
+  margin-left: 16px;
+  background-color: var(--main-text);
+  font-weight: 700;
+  line-height: 1.25;
+  border-radius: 12px;
+}

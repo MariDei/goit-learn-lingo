@@ -12,4 +12,5 @@
 
 .isActive {
   color: var(--yellow-hover);
+  text-decoration: underline;
 }
