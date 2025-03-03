@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className={css.container}>
       <Link className={css.logo} to="/">
-        <svg className={css.icon}>
+        <svg width="28" height="28">
           <use href={`${icons}#${'icon-ukraine'}`} />
         </svg>
         LearnLingo
