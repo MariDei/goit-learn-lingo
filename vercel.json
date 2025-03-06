@@ -1,3 +1,10 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "builds": [
+    {
+      "src": "goit-learn-lingo/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "goit-learn-lingo/build" }
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/goit-learn-lingo/build/$1" }]
 }
