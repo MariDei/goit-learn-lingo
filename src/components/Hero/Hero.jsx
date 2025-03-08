@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import css from './HomePage.module.css';
+import css from './Hero.module.css';
 
 const Hero = () => {
   return (
     <section className={css.section}>
-      <div className={css.wrapper}>
+      <div className={css.container}>
         <h1 className={css.title}>
           Unlock your potential with the best language tutors
         </h1>
