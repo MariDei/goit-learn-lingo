@@ -3,10 +3,12 @@ import RectangleBlock from '../../components/RectangleBlock/RectangleBlock';
 
 const HomePage = () => {
   return (
-    <section>
-      <Hero />
-      <RectangleBlock />
-    </section>
+    <>
+      <section>
+        <Hero />
+        <RectangleBlock />
+      </section>
+    </>
   );
 };
 

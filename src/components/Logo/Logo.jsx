@@ -9,7 +9,7 @@ const Logo = () => {
         <svg width="28" height="28">
           <use href={`${icons}#${'icon-ukraine'}`} />
         </svg>
-        LearnLingo
+        <span>LearnLingo</span>
       </Link>
     </div>
   );
